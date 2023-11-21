@@ -2,20 +2,20 @@
 
 使用 YOLOv8 训练 Apex Legend 角色识别模型
 
-1. **下载并安装 YOLOv8 及其依赖库**
+1. **下载并安装依赖**
    - 克隆此仓库:
-     '''
+     ```     
      pip clone https://github.com/tothemoon10080/Apex-Legend-character-recognition.git
-     '''
+     ```
    - 并在仓库根目录下运行以下命令来安装所有必需的库：
      ```     
      pip install -r requirements.txt
      ```
 
-2. **下载 Apex Legend 角色识别数据集 v1**
+2. **下载数据集**
    - [Image Dataset](https://universe.roboflow.com/online-resource-2/v1-jx7pl/dataset/2)
 
-3. **下载 Apex Legend 角色识别预训练模型**
+3. **下载预训练模型**
    - 这里使用 Yolo 自带的 [yolov8n.pt](https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8n.pt)
 
 4. **训练模型**
